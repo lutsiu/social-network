@@ -1,0 +1,32 @@
+.shown {
+  display: grid;
+  
+}
+.hidden {
+  display: none;
+}
+.oneCol {
+  @apply grid-cols-1;
+
+}
+.twoCol {
+  @apply grid-cols-2 max-h-[28rem];
+}
+.threeCol {
+  @apply grid-cols-2  max-h-[30rem];
+}
+.fourCol {
+  @apply grid-cols-2 ;
+}
+.oneImg {
+  @apply  max-h-[55rem]
+}
+.twoImg {
+  @apply  max-h-[28rem]
+}
+.threeImg {
+  @apply  max-h-[14rem]
+}
+.fourImg {
+  @apply  max-h-[20rem]
+}

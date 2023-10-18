@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+:root,
+body {
+  @apply h-full w-full box-border m-0 p-0 bg-black text-white; 
+  
+}
+
+
+.shadow {
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+
+}
+
+.trend-hover {
+
+  &:hover {
+    background-color: rgba(147, 51, 234, 0.4 );
+  }
+  &:hover > * {
+    @apply text-purple-400
+  }
+}

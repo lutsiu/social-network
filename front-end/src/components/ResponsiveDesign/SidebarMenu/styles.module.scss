@@ -1,0 +1,11 @@
+.avatar {
+  @apply relative;
+  &::after {
+    content: '';
+    @apply absolute top-0 w-full h-full rounded-full opacity-0 duration-300;
+    background: rgba(0,0,0,0.4);
+  }
+  &:hover::after {
+    @apply opacity-100;
+  }
+}

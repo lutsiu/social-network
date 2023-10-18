@@ -1,0 +1,7 @@
+.link {
+  content: '';
+}
+.link::before {
+  content: '';
+  @apply bg-purple-500 h-[0.4rem] w-[40%] inline-block rounded-md absolute top-[5.5rem];
+}
